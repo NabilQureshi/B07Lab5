@@ -35,8 +35,8 @@ public class CircleTest {
         // default should be center (0,0) and r = 1
         Circle c = new Circle();
         assertEquals(new Point(0.0, 0.0), c.center);
-        assertEquals(1.0, c.radius, 1e-9);
-        assertEquals(Math.PI, c.area(), 1e-9);
-        assertEquals(2.0 * Math.PI, c.perimeter(), 1e-9);
+        assertEquals(1.0, c.radius, 0.0);
+        assertEquals(Math.PI, c.area(), 0.0);
+        assertEquals(2.0 * Math.PI, c.perimeter(), 0.0);
     }
 }
