@@ -7,7 +7,7 @@ public class Circle {
 	Point center;
 	double radius;
 
-	public Cicle() {
+	public Circle() {
 		center = new Point(0, 0);
 		radius = 1;
 	}
